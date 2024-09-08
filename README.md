@@ -1,7 +1,7 @@
 
 # Hidden Markov Model Project
 
-This project involves various implementations and analysis of Hidden Markov Models (HMMs). The project includes code for decoding, likelihood estimation, sampling sequences, and parameter learning for an HMM-based system. Additionally, scripts for plotting results, computing distances, and visualizing sensor probabilities are provided.
+This project implements Hidden Markov Models (HMMs) for simulating and estimating the trajectory of a sailboat in a 15x15 grid world. The sailboat's motion is influenced by random wind, and its position is detected by noisy sensors placed at the grid's corners. The project includes sampling state trajectories, likelihood estimation using the Forward algorithm, trajectory decoding via the Viterbi algorithm, and learning transition and emission matrices using the Baum-Welch algorithm.
 
 ## Directory Structure
 
